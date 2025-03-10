@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+@layer base{
+    span{
+        @apply  ml-18 font-semibold block
+    }
+    label{
+        @apply  ml-18 
+    }
+    input{
+        @apply w-[400px] p-1 m-1
+    }
+
+}
+@theme{
+    --default-font-family:"Outfit";
+}

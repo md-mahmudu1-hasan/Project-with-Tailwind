@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/images.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/output.css">
+    <title>Login Form</title>
+</head>
+<body class="">
+    <header>
+        <nav class="bg-black flex text-white justify-evenly h-12 relative sm:justify-between">
+            <div class="text-white flex p-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+              </svg>
+              <span class="ml-1">Private Area</span>
+              </div>
+              <div class="flex flex-col mt-3 group sm:flex-row">
+            <div class="sm:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+              </svg>
+            </div>      
+              <ul class="[&>*]:text-white invisible group-hover:visible [&>*]:bg-black relative sm:visible sm:flex [&>*]:sm:mr-7">
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>Contact us</li>
+                <li><a href=""></a>Menu</li>
+                <li><a href=""></a>Report</li>
+              </ul>
+            </div>      
+        </nav>
+    </header>
+    <main class="bg-gray-400 container mx-auto justify-center items-center sm:w-xl shadow-2xl shadow-black h-96 sm:h-[400px] pt-10">
+      <div class="">
+      <span class="">Only login via email, Google, or +86 phone number</span>
+      <span class="">login is supported in your region.</span>
+      <form class="flex flex-col" action="action.php">
+        <label for="email">
+          <p>Enter your email:</p>
+          <input class="border-2 rounded" type="email" placeholder="Enter email" name="email" id="email">
+        </label>
+        <label for="password"><p>Enter password:</p>
+          <input class="border-2 rounded" type="password" placeholder="password" name="password" id="password">
+        </label>
+      <div>
+        <button class=" ml-20 bg-black text-white block rounded font-semibold p-0.5" type="submit">Login</button>
+      </div>
+      </form>
+    </div>
+    </main>
+</body>
+</html>
